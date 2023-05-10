@@ -1,0 +1,456 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#top-bar {
+    width: 1300px;
+    margin: 0 auto;
+    height: 40px;
+    font-weight: bold;
+}
+
+.border-top {
+    border-bottom: 1px #ccc solid;
+}
+
+.logo-bbc {
+    width: 85px;
+    margin: 8px 15px 0 0;
+    float: left;
+}
+
+.icon-user {
+    width: 22px;
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 8px;
+}
+
+.sign-in p {
+    float: left;
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.sign-in {
+    border-left: 1px #bebebe solid;
+    float: left;
+    height: 90%;
+    width: 180px;
+    position: relative;
+}
+
+.sign-padding {
+    display: block;
+    padding: 0 0 35px 0;
+}
+
+.sign-padding:hover {
+    border-bottom: 5px #18b solid;
+}
+
+.list1 {
+    float: left;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0;
+    height: 100%;
+}
+
+#top-bar .list1 li {
+    float: left;
+    border-left: 1px #bebebe solid;
+    height: 100%;
+}
+
+.list1 a {
+    display: block;
+    padding: 10px 20px 9px 20px;
+    text-decoration: none;
+}
+
+#top-bar a:visited {
+    color: black;
+}
+
+.search-box {
+    float: left;
+    height: 40px;
+    border-left: 1px #bebebe solid;
+    padding: 0 12px;
+    width: 190px;
+    margin: 0 0 0 0px;
+}
+
+.search {
+    width: 90%;
+    border-radius: 0;
+    background: rgb(226, 226, 226);
+    border: 0;
+    height: 60%;
+    padding: 0 0 0 6px;
+    margin: 8px 0 0 0px;
+}
+
+button {
+    width: 22px;
+    height: 24px;
+    border-radius: 0;
+    position: absolute;
+    border: 0;
+    float: left;
+    background: rgb(226, 226, 226);
+    cursor: pointer;
+    margin: 8px 0 0 0;
+}
+
+.icon-search {
+    width: 20px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+.icon-down {
+    width: 18px;
+}
+
+.icon-down {
+    position: absolute;
+    right: 8px;
+}
+
+.more-section {
+    width: 110px;
+    position: relative;
+}
+
+.home-color:hover {
+    border-bottom: 5px black solid;
+}
+
+.news-color:hover {
+    border-bottom: 5px #bb1919 solid;
+}
+
+.sport-color:hover {
+    border-bottom: 5px #ffd230 solid;
+}
+
+.reel-color:hover {
+    border-bottom: 5px #0068ff solid;
+}
+
+.worklife-color:hover {
+    border-bottom: 5px #0052a1 solid;
+}
+
+.travel-color:hover {
+    border-bottom: 5px #589e50 solid;
+}
+
+.future-color:hover {
+    border-bottom: 5px #002856 solid;
+}
+
+.future-color:hover {
+    border-bottom: 5px #002856 solid;
+}
+
+.culture-color:hover {
+    border-bottom: 5px #482878 solid;
+}
+
+.more-color:hover {
+    border-bottom: 5px #262626 solid;
+}
+
+.news {
+    width: 100vw;
+    height: 56px;
+    background: #bb1919;
+    margin: 0 auto;
+}
+
+.news a {
+    position: relative;
+    display: inline-block;
+}
+
+.center-news {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.news-logo {
+    position: relative;
+    margin: 15px 0 0 0;
+    left: 0;
+}
+
+.notice-menu {
+    background: #bb1919;
+    width: 100vw;
+    height: 36px;
+}
+
+.notice-menu-center {
+    width: 1324px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.notice-list {
+    display: inline-block;
+    margin-top: -2px;
+    padding: 0;
+}
+
+.notice-list-element {
+    display: inline-block;
+    margin: 0;
+}
+
+.notice-list-element a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.notice-list-element-spaced a{
+    padding: 5px 0px 8px 0px;
+}
+
+.home-list {
+    padding: 5px 12px 8px 12px;
+}
+
+.notice-list-element span {
+    border-left: 1px #bb454f solid;
+    padding: 0 12px;
+}
+
+.notice-active:hover{
+    border-bottom: 4px white solid;
+}
+
+.more-arrow-notice {
+    width: 18px;
+    position: relative;
+    top: 3px;
+    right: 4px;
+}
+
+.actual-active {
+    border-bottom: 4px white solid;
+}
+
+.a-active:hover {
+    background: black;
+    border-radius: 3px;
+}
+
+.search::placeholder {
+    font-weight: bold;
+    position: relative;
+    right: 2px;
+    color: black;
+}
+
+.search:focus::placeholder {
+    color: #999999;
+}
+
+.tittle-section {
+    width: 1300px;
+    height: 45px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.name-section {
+    font-size: 150%;
+    margin: 8px 0;
+    position: absolute;
+    left: 0;
+    font-weight: 100;
+    border-bottom: 4px #bb1919 solid;
+}
+
+.notice-section {
+    margin: 10px 0;
+}
+
+.notice-content {
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.principal-img {
+    width: 490px;
+}
+
+.principal-section-notice {
+    width: 39%;
+    height: 100%;
+}
+
+.tittle-principal-notice {
+    margin: 5px 0 0 0;
+    font-size: 32px;
+    width: 95%;
+}
+
+.tittle-style {
+    text-decoration: none;
+    color: #5A5A5A;
+}
+
+.tittle-style:hover {
+    text-decoration: underline;
+    color: #1380A1;
+}
+
+.info-principal-notice {
+    width: 97%;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 17px;
+}
+
+.info-style {
+    color: #5A5A5A;
+    text-decoration: none;
+}
+
+.hour-topic-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.hour-topic-info li {
+    display: inline-block;
+}
+
+.hour-info img {
+   position: absolute;
+   top: 0;
+}
+
+.hour-logo {
+    width: 15px;
+}
+
+.p-hour {
+    margin: 0 2px 0 18px;
+    color: #5A5A5A;
+}
+.p-topic {
+    margin: 0;
+    border-left: 1px #dbdbdb solid;
+    padding-left: 5px;
+    color: #5A5A5A;
+}
+
+.other-notices {
+    margin: 0;
+    padding: 30px 0 0 20px;
+}
+
+.other-notices a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+
+.other-notices li {
+    margin-bottom: 10px;
+}
+
+.notices-section {
+    width: 61%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.notices-section div{
+    position: relative;
+}
+
+.notice-style {
+    width: 240px;
+    height: 284px;
+    display: inline-block;
+    margin-bottom: 29px;
+    margin-right: 21.5px;
+}
+
+.notice-style img{
+    position: absolute;
+}
+
+.notice-style .notices-tittle{
+    position: absolute;
+    top: 52%;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.notices-tittle:hover {
+    color: #1380A1;
+}
+
+.notice-style p{
+    position: absolute;
+    top: 63%;
+    font-size: 15px;
+}
+
+.notice-style .unique-p {
+    top: 57%;
+}
+
+.p-notices {
+    color: #5A5A5A;
+}
+
+.notices-section ul {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    bottom: 10%;
+}
+
+.notices-section .topic-info {
+    margin-left: 42px;
+}
+
+.notices-section .p-topic {
+    color: black;
+    width: 100px;
+}
+
+.notices-section .p-topic:hover {
+    color: #1380A1;
+}
+
+
+
+
+
+
